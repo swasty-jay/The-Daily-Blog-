@@ -1,7 +1,9 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className=" text-white p-4">
-      <button className="btn w-64 rounded-full">Button</button>
+    <div className=" ">
+      <Header />
     </div>
   );
 }
