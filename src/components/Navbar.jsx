@@ -11,7 +11,7 @@ const NavBar = () => {
   function ToggleBtn() {
     return (
       <div className="flex items-center">
-        <button className="text-xl mr-4 md:hidden">☰</button>
+        <button className="text-xl mr-4 ">☰</button>
         <button className="text-2xl" onClick={toggleTheme}>
           {isDarkMode ? "🌞" : "🌙"}
         </button>
@@ -23,7 +23,7 @@ const NavBar = () => {
     return (
       <div className="text-center flex-1">
         <h1 className="text-3xl font-bold">Daily Blog</h1>
-        <p className="text-sm mt-1">All voices matter!</p>
+        <p className="text-sm my-2">All voices matter!</p>
       </div>
     );
   }
