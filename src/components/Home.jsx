@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Technology from ".././assets/images/Technology.jpg";
 
 const Home = () => {
   return (
@@ -10,7 +11,11 @@ const Home = () => {
           <div className="lg:col-span-2">
             <h2 className="text-2xl font-bold mb-4">Breaking News</h2>
             <div className="relative">
-              <img src="/src" alt="tech" className="w-full rounded-md" />
+              <img
+                src={Technology}
+                alt={Technology}
+                className="w-full rounded-md"
+              />
               <div className="absolute top-4 left-4">
                 <span className="bg-orange-500 text-xs font-bold px-3 py-1 rounded uppercase">
                   Breaking
