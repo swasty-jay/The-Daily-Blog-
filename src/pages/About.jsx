@@ -2,8 +2,18 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <h3>about</h3>
+    <div className=" items-center flex flex-row gap-3">
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
+      <div>item 1</div>
     </div>
   );
 };
